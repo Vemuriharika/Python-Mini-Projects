@@ -79,7 +79,7 @@ Through these projects, I have strengthened my knowledge of:
 ## Repository Structure
 
 ```text
-Python-Projects/
+Python-Mini-Projects/
 │
 ├── Caesar-Cipher/
 │   ├── caesar_cipher.py
@@ -99,13 +99,13 @@ Python-Projects/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Vemuriharika/Python-Projects.git
+git clone https://github.com/Vemuriharika/Python-Mini-Projects.git
 ```
 
 ### Navigate to the Repository
 
 ```bash
-cd Python-Projects
+cd Python-Mini-Projects
 ```
 
 ### Run a Project
