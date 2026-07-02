@@ -6,7 +6,7 @@ The **Caesar Cipher** is a command-line encryption and decryption application de
 
 This project enables users to securely **encrypt** and **decrypt** text messages by specifying a shift value. It provides a simple and interactive interface while demonstrating the fundamental concepts of classical cryptography and Python programming.
 
-
+---
 
 ## Objectives
 
@@ -16,14 +16,14 @@ This project enables users to securely **encrypt** and **decrypt** text messages
 * Preserve spaces, numbers, and special characters during encryption and decryption.
 * Strengthen understanding of Python programming fundamentals and cryptographic concepts.
 
-
+---
 
 ## Technologies Used
 
 * Python 3
 * Python Standard Library (`string`)
 
-
+---
 
 ## Features
 
@@ -35,19 +35,18 @@ This project enables users to securely **encrypt** and **decrypt** text messages
 * Input validation for encryption/decryption mode.
 * Allows users to perform multiple encryption and decryption operations in a single session.
 
-
+---
 
 ## Project Structure
 
-
+```text
 Caesar-Cipher/
-
 │
-
 ├── caesar_cipher.py
+└── README.md
+```
 
-└── readme.md
-
+---
 
 ## How It Works
 
@@ -59,7 +58,7 @@ Caesar-Cipher/
 6. The encrypted or decrypted message is displayed.
 7. The user can choose to repeat the process or exit the application.
 
-
+---
 
 ## Algorithm
 
@@ -70,10 +69,11 @@ Caesar-Cipher/
 
 Example:
 
+```text
 Plain Text : hello
 Shift      : 3
 Cipher Text: khoor
-
+```
 
 ### Decryption
 
@@ -81,15 +81,17 @@ Cipher Text: khoor
 
 Example:
 
-
+```text
 Cipher Text: khoor
 Shift      : 3
 Plain Text : hello
+```
 
+---
 
 ## Sample Execution
 
-
+```text
 Type 'encode' to encrypt or 'decode' to decrypt:
 encode
 
@@ -103,7 +105,9 @@ Here's the encoded result:
 mjqqt btwqi
 
 Type 'yes' if you want to go again. Otherwise, type 'no'.
+```
 
+---
 
 ## Key Concepts Demonstrated
 
@@ -117,7 +121,7 @@ Type 'yes' if you want to go again. Otherwise, type 'no'.
 * Command-Line Application Development
 * Basic Cryptography
 
-
+---
 
 ## Skills Demonstrated
 
@@ -130,27 +134,29 @@ Type 'yes' if you want to go again. Otherwise, type 'no'.
 * Input Validation
 * Clean Code Practices
 
-
+---
 
 ## Installation
 
 ### Clone the Repository
 
-bash
+```bash
 git clone https://github.com/Vemuriharika/Caesar-Cipher.git
-
+```
 
 ### Navigate to the Project Directory
 
-bash
+```bash
 cd Caesar-Cipher
-
+```
 
 ### Run the Program
 
-bash
+```bash
 python caesar_cipher.py
+```
 
+---
 
 ## Learning Outcomes
 
@@ -163,7 +169,7 @@ This project provided hands-on experience in:
 * Designing reusable Python functions.
 * Validating user input and handling edge cases.
 
-
+---
 
 ## Future Enhancements
 
@@ -173,6 +179,12 @@ This project provided hands-on experience in:
 * Implement additional classical ciphers such as Vigenère and Atbash.
 * Develop a graphical user interface (GUI) using Tkinter.
 * Package the application as a standalone executable.
+
+---
+
+## About Me
+
+I am an aspiring **Software Developer** and **Data Analyst** with a strong interest in Python, SQL, Data Analytics, Cybersecurity, and Machine Learning. I enjoy developing practical applications that strengthen my programming skills and solve real-world problems.
 
 
 
